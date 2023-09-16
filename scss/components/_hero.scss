@@ -1,0 +1,50 @@
+.hero {
+    &__content {
+
+        img {
+            width: 100%;
+            position: absolute;
+            z-index: 0;
+
+        }
+
+        h3 {
+            color: #FFF;
+            font-family: Roboto;
+            font-size: 48px;
+            font-style: normal;
+            font-weight: 700;
+            width: 308px;
+            height: 44px;
+            position: relative;
+            // padding: 60px 60px;
+            padding-top: 142px;
+            padding-left: 105px;
+        }
+
+        p {
+            color: #FFF;
+            font-family: Roboto;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            width: 308px;
+            height: 35px;
+            position: relative;
+            padding-left: 105px;
+        }
+
+        button {
+            border-radius: 40px;
+            border: 2px solid #FFF;
+            background: var(--Accent, #F13C6E);
+            position: relative;
+            margin-left: 105px;
+            margin-top: 20px;
+        }
+
+    }
+    &__info{
+row-gap: 50px;
+    }
+}

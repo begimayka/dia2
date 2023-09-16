@@ -1,0 +1,102 @@
+.info {
+    background: var(--Gray, #EFEFEF);
+
+    &__content {
+        display: flex;
+        justify-content: center;
+        padding-top: 100px;
+        flex-wrap: wrap;
+        gap: 80px;
+    }
+
+   
+    &__mini {
+        max-width: 540px;
+        height: 212px;
+        background: var(--Accent, #F13C6E);
+        display: flex;
+        padding: 30px 20px 40px 20px;
+        // margin-right: 80px;
+
+
+
+        img {
+            width: 140px;
+            height: 140px;
+        }
+
+        h3 {
+            color: #FFF;
+            font-family: Roboto;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 700;
+        }
+
+        p {
+            color: #FFF;
+            font-family: Roboto;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+        }
+
+        input {
+            border-radius: 30px;
+            background: #FFF;
+            color: #C4C4C4;
+            text-align: center;
+            font-family: Roboto;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            margin-top: 30px;
+        }
+
+
+    }
+
+    &__mini1 {
+        max-width: 540px;
+        height: 212px;
+        background: var(--Accent, #F13C6E);
+        display: flex;
+        padding: 30px 20px 40px 20px;
+        // margin-left: 80px;
+
+        img {
+            width: 188.673px;
+            height: 100px;
+        }
+
+        h3 {
+            color: #FFF;
+            font-family: Roboto;
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 700;
+        }
+
+        p {
+            color: #FFF;
+            font-family: Roboto;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+        }
+
+        button {
+            border-radius: 30px;
+            border: 2px solid #FFF;
+            background: var(--Accent, #F13C6E);
+            color: #FFF;
+            text-align: center;
+            font-family: Roboto;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            margin-top: 30px;
+            cursor: pointer;
+        }
+    }
+}
